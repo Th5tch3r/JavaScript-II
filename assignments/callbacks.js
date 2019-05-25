@@ -68,7 +68,9 @@ function contains(item, list, cb) {
 };
 
 
-  contains('Notebook',items, console.log);
+  contains('Notebook',items, (check) => {
+    console.log(check)
+  });
 
 /* STRETCH PROBLEM */
 
